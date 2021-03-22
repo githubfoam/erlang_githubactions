@@ -5,9 +5,9 @@ name: "Erlang CI workflow"
 
 on:
   push:
-    branches: [ test ]
-  # pull_request:
-  #   branches: [ githubactions_powershell ]
+    branches: [ main ]
+  schedule:
+      - cron:  '0 0 1 * *' ##execution of a task in the first minute of the month
 
 
 jobs:
