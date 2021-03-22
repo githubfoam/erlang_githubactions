@@ -5,7 +5,7 @@ name: "Erlang CI workflow"
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ test ]
   # pull_request:
   #   branches: [ githubactions_powershell ]
 
